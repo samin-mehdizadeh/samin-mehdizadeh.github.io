@@ -1,6 +1,10 @@
-<h2 id="research-experiences" style="margin: 2px 0px -15px;">Research Experiences</h2>
+<h2 id="research-experiences" style="margin: 2px 0px 10px;">
+Research Experiences
+</h2>
 
-<p style="margin-bottom: 1.5rem;">I have been fortunate to work with some amazing researchers and professors.</p>
+<p style="margin-top: 10px; margin-bottom: 1.5rem;">
+I have been fortunate to work with some amazing researchers and professors.
+</p>
 
 <div class="publications research-experiences">
 <ol class="bibliography">
