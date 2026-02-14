@@ -3,14 +3,21 @@
 
 main:
 
+  - name: "University of Waterloo"
+    image: ./assets/img/waterloo.jpg
+    advisor: "Prof. Wenhu Chen"
+    advisor_link: https://scholar.google.com/citations?user=U8ShbhUAAAAJ&hl=en
+    description: "Evaluating the performance of vision-language models across diverse real-world tasks."
+
+
   - name: "Chinese University of Hong Kong"
     image: ./assets/img/cuhk.png
     advisor: "Prof. Farzan Farnia"
     advisor_link: https://scholar.google.com/citations?user=GYPCqcYAAAAJ&hl=en
-    description: "Certifies the performance of machine learning models under distribution shifts."
+    description: "Certifying the performance of machine learning models under distribution shifts."
 
   - name: "University of Stuttgart"
     image: ./assets/img/stuttgart.png
     advisor: "Prof. Sabine Schulte im Walde"
     advisor_link: https://scholar.google.com/citations?hl=en&user=kObRYIAAAAAJ&view_op=list_works&sortby=pubdate
-    description: "Analyzes diachronic semantic shifts of compounds to model present-day compositionality."
+    description: "Analyzing diachronic semantic shifts of compounds to model present-day compositionality."

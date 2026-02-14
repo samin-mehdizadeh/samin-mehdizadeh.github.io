@@ -8,5 +8,7 @@ Hi! I completed my bachelor’s and master’s degrees in Computer Engineering a
 
 {% include_relative _includes/research.md %}
 
-{% include_relative _includes/publications.md %}
+## Miscellaneous
+
+I like reading (lately I’ve been a fan of Kazuo Ishiguro), crochet, and playing santoor.
 
