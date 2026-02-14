@@ -1,5 +1,5 @@
 <h2 id="research-experiences" style="margin: 2px 0px 10px;">
-Research Experiences
+Research Internships
 </h2>
 
 <p style="margin-top: 10px; margin-bottom: 1.5rem;">
