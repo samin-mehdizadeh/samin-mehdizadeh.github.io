@@ -74,5 +74,13 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
 
-/* Research experiences: show full institution image (no crop) */
-.research-experiences ol.bibliography li .teaser { object-fit: contain; }
+/* Research experiences: show full institution image, no crop */
+.research-experiences ol.bibliography li .abbr { height: auto; min-height: 8rem; overflow: visible; }
+.research-experiences ol.bibliography li .teaser {
+  width: auto !important;
+  height: auto !important;
+  max-width: 270px;
+  max-height: 160px;
+  object-fit: contain;
+  object-position: center center;
+}
