@@ -81,17 +81,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
 
-/* Research experiences: full logo, no teaser crop */
-.research-experiences ol.bibliography li .abbr { height: auto; min-height: 8rem; overflow: visible; }
+/* Research experiences: all logos in same-size box, full image visible */
+.research-experiences ol.bibliography li .abbr { height: 140px; width: 280px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
 .research-experiences ol.bibliography li .research-logo {
-  display: block;
   max-width: 270px;
-  max-height: 180px;
+  max-height: 130px;
   width: auto;
   height: auto;
+  object-fit: contain;
   border-radius: 8px;
   box-shadow: 3px 3px 6px #888;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-bottom: 5px;
 }
