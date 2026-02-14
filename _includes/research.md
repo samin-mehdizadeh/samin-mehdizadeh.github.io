@@ -1,6 +1,6 @@
 <h2 id="research-experiences" style="margin: 2px 0px -15px;">Research Experiences</h2>
 
-<div class="publications">
+<div class="publications research-experiences">
 <ol class="bibliography">
 
 {% for item in site.data.research_experiences.main %}
@@ -9,7 +9,7 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if item.image %}
-    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1" style="width=100;height:40%">
+    <img src="{{ item.image }}" class="teaser img-fluid z-depth-1">
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
